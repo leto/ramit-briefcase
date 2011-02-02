@@ -3,9 +3,22 @@
 * Converted Parrot VM to Git
     * Over ten years of history across two version control systems was converted,
     and much of the build process had to be refactored to use Git instead of Subversion.
-* PL/Parrot + PL/Perl6 : Parrot and Rakudo Perl 6 embedded into PostgreSQL
+* PL/Parrot : Parrot VM embedded into PostgreSQL
+    * This makes PIR, Parrot Intermediate Representation, available as PL language, which 
+    stored procedures can be written in. It also allows for any language running on Parrot
+    to easily become PL.
+* PL/Perl6  : Rakudo Perl 6 embedded into PostgreSQL
+    * This uses PL/Parrot to embed an implementation of Perl 6 and allows writing stored
+    procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
+    every call to a stored procedure can see if it parses in that grammar.
 * Helped add IPv6 support to Parrot
+    * This was no minor feat, as Parrot support Linux, *BSD, Windows and Solaris.
 * Jitterbug : Continuous integration system for Git
+    * This continuous integration system currently runs test suites and emails
+    on build failures. It currently knows how to run tests for Perl 5, Perl 6, Parrot
+    and Makefile-based projects. Running Python and Ruby are features that will
+    come soon. Currently Jitterbug drops in as a post-receive hook on Github, but it
+    can also be used with pure-Git.
 
 # Leadership Achievements
 
