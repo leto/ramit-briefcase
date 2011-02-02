@@ -23,27 +23,29 @@
 # Leadership Achievements
 
 * Mentor, The Perl Foundation, Google Summer of Code 2008
-    * Mentored Thierry Moisan on Math::GSL
+    * Mentored Thierry Moisan on Math::GSL, a Perl 5 interface to the GNU Scientific Library. This
+    is currently one of the few CPAN modules that integrates SWIG into the build process.
 * Mentor/Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2009
-    * Mentored Bob Kuo on Math::Primality
+    * Mentored Bob Kuo on Math::Primality, a CPAN module implementing advanced primality algorithms.
+    * Managed 9 students and 9 mentors.
 * Co-mentor, RTEMS, GSoC 2010
-    * Mentored Bob Kuo on porting Parrot VM to the RTEMS real-time OS
-* Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2010
-    * Managed X students and Y mentors
+    * Mentored Bob Kuo on porting Parrot VM to the RTEMS real-time OS.
+* Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2010.
+    * Managed 10 students and 10 mentors.
 * Org Admin, The Perl Foundation and Parrot Foundation, Google Code-In 2010
-    * Managed X students and Y mentors
+    * Managed roughly a dozen volunteer mentors and dozens of students.
 * Co-founder of PDX Hackathon
     * Local tech event that is attended by 30 or more people, weekly
 
 # Writing and Publications
 
 * Git Workflow for Parrot Developers
-    * Wrote document that describes the entire process of using Git to hack on Parrot, along with a list of git terminology explained in terms that mere mortals can understand.
+    * A document that describes the entire process of using Git to hack on Parrot, along with a list of git terminology explained in terms that mere mortals can understand. This includes cloning a new repository, merging branches, keeping branches in sync and accepting pull requests on Github.
 
 * Google Summer of Code Student Guide: Flip Bits Not Burgers, Co-Author
-    * A X page manual for prospective students that describes how to integrate into open source communities.
+    * A Creative Commons licensed manual for prospective students that describes how to integrate into open source communities.
 
 * Google Summer of Code: Mentor and Org Admin Guide, Co-Author
-    * A X page manual for mentors and admins on how to be effective and avoid common pitfalls.
+    * A Creative Commons licesned manual for mentors and admins on how to be effective and avoid common pitfalls.
 
 
