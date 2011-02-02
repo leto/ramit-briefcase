@@ -3,34 +3,40 @@
 > I have commit bits to dozens of open source projects and have been actively contributing
 to open source projects for over ten years in half a dozen languages.
 
-## Converted Parrot VM to Git
-    * Over ten years of history across two version control systems was converted,
-    and much of the build process had to be refactored to use Git instead of Subversion.
-## PL/Parrot : Parrot VM embedded into PostgreSQL
-    * This makes PIR, Parrot Intermediate Representation, available as PL language, which
-    stored procedures can be written in. It also allows for any language running on Parrot
-    to easily become PL.
-## PL/Perl6  : Rakudo Perl 6 embedded into PostgreSQL
-    * This uses PL/Parrot to embed an implementation of Perl 6 and allows writing stored
-    procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
-    every call to a stored procedure can see if it parses in that grammar.
-## Helped add IPv6 support to Parrot
-    * This was no minor feat, as Parrot support Linux, *BSD, Windows and Solaris.
-## Jitterbug : Continuous integration system for Git
-    * This continuous integration system currently runs test suites and emails
-    on build failures. It currently knows how to run tests for Perl 5, Perl 6, Parrot
-    and Makefile-based projects. Running Python and Ruby are features that will
-    come soon. Currently Jitterbug drops in as a post-receive hook on Github, but it
-    can also be used with pure-Git.
-## WWW::Phylobox : Perl 5 interface to phylobox.com
-    * Phylobox.com is a web app on Google App Engine that helps evolutionary biologists
-    visualize phylogenies, which are graphs of how species and groups of species are related.
-    This was written at a hackathon at the National Evolutionary Synthesis Center (NESCent),
-    which is an NSF-funded research center for aggregrating evolutionary data.
-## Fixed an obscure bug in the Perl 5 debugger
-    * This involved reading and understanding the entire source code of the Perl 5 debugger.
-    I can't say that I have ever been the same since. This bug would cause any failing test
-    to pass, under certain versions of the Perl debugger, at my previous job.
+### Converted Parrot VM to Git
+Over ten years of history across two version control systems was converted,
+and much of the build process had to be refactored to use Git instead of Subversion.
+
+### PL/Parrot : Parrot VM embedded into PostgreSQL
+This makes PIR, Parrot Intermediate Representation, available as PL language, which
+stored procedures can be written in. It also allows for any language running on Parrot
+to easily become PL.
+
+### PL/Perl6  : Rakudo Perl 6 embedded into PostgreSQL
+This uses PL/Parrot to embed an implementation of Perl 6 and allows writing stored
+procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
+every call to a stored procedure can see if it parses in that grammar.
+
+### Helped add IPv6 support to Parrot
+This was no minor feat, as Parrot support Linux, *BSD, Windows and Solaris.
+
+### Jitterbug : Continuous integration system for Git
+This continuous integration system currently runs test suites and emails
+on build failures. It currently knows how to run tests for Perl 5, Perl 6, Parrot
+and Makefile-based projects. Running Python and Ruby are features that will
+come soon. Currently Jitterbug drops in as a post-receive hook on Github, but it
+can also be used with pure-Git.
+
+### WWW::Phylobox : Perl 5 interface to phylobox.com
+Phylobox.com is a web app on Google App Engine that helps evolutionary biologists
+visualize phylogenies, which are graphs of how species and groups of species are related.
+This was written at a hackathon at the National Evolutionary Synthesis Center (NESCent),
+which is an NSF-funded research center for aggregrating evolutionary data.
+
+### Fixed an obscure bug in the Perl 5 debugger
+This involved reading and understanding the entire source code of the Perl 5 debugger.
+I can't say that I have ever been the same since. This bug would cause any failing test
+to pass, under certain versions of the Perl debugger, at my previous job.
 
 # Leadership Achievements
 
