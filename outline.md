@@ -1,10 +1,13 @@
 # Open Source Achievements
 
+> I have commit bits to dozens of open source projects and have been actively contributing
+to open source projects for over ten years in half a dozen languages.
+
 * Converted Parrot VM to Git
     * Over ten years of history across two version control systems was converted,
     and much of the build process had to be refactored to use Git instead of Subversion.
 * PL/Parrot : Parrot VM embedded into PostgreSQL
-    * This makes PIR, Parrot Intermediate Representation, available as PL language, which 
+    * This makes PIR, Parrot Intermediate Representation, available as PL language, which
     stored procedures can be written in. It also allows for any language running on Parrot
     to easily become PL.
 * PL/Perl6  : Rakudo Perl 6 embedded into PostgreSQL
@@ -24,8 +27,14 @@
     visualize phylogenies, which are graphs of how species and groups of species are related.
     This was written at a hackathon at the National Evolutionary Synthesis Center (NESCent),
     which is an NSF-funded research center for aggregrating evolutionary data.
+* Fixed an obscure bug in the Perl 5 debugger
+    * This involved reading and understanding the entire source code of the Perl 5 debugger.
+    I can't say that I have ever been the same since. This bug would cause any failing test
+    to pass, under certain versions of the Perl debugger, at my previous job.
 
 # Leadership Achievements
+
+> I enjoy being the leader of a team of very smart people and solving hard problems.
 
 * Mentor, The Perl Foundation, Google Summer of Code 2008
     * Mentored Thierry Moisan on Math::GSL, a Perl 5 interface to the GNU Scientific Library. This
@@ -43,6 +52,8 @@
     * Local tech event that is attended by 30 or more people, every week.
 
 # Writing and Publications
+
+> I enjoy writing technical specifications, publishing academic papers and writing about open source.
 
 * Git Workflow for Parrot Developers
     * A document that describes the entire process of using Git to hack on Parrot, along with a list of git terminology explained in terms that mere mortals can understand. This includes cloning a new repository, merging branches, keeping branches in sync and accepting pull requests on Github.
@@ -76,4 +87,3 @@
 * Writing A Useful Program with NASM
     ** Assembly Programming Journal 9 (2000)
     ** This article is a HOWTO about assembly programming for beginners, and gives example code for NASM.
-
