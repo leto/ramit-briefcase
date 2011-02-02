@@ -19,6 +19,11 @@
     and Makefile-based projects. Running Python and Ruby are features that will
     come soon. Currently Jitterbug drops in as a post-receive hook on Github, but it
     can also be used with pure-Git.
+* WWW::Phylobox : Perl 5 interface to phylobox.com
+    * Phylobox.com is a web app on Google App Engine that helps evolutionary biologist
+    visualize phylogenies, which are graphs of how species and groups of species are related.
+    This was written at a hackathon at the National Evolutionary Synthesis Center (NESCent),
+    which is an NSF-funded research center for aggregrating evolutionary data.
 
 # Leadership Achievements
 
@@ -35,7 +40,7 @@
 * Org Admin, The Perl Foundation and Parrot Foundation, Google Code-In 2010
     * Managed roughly a dozen volunteer mentors and dozens of students.
 * Co-founder of PDX Hackathon
-    * Local tech event that is attended by 30 or more people, weekly
+    * Local tech event that is attended by 30 or more people, every week.
 
 # Writing and Publications
 
@@ -48,4 +53,27 @@
 * Google Summer of Code: Mentor and Org Admin Guide, Co-Author
     * A Creative Commons licesned manual for mentors and admins on how to be effective and avoid common pitfalls.
 
+* The Sol Genomics Network: Growing Tomatoes using Perl
+    ** Aureliano Bombarely, et al
+    ** Nucleic Acid Research Oct (2010)
+    ** This publication describes http://solgenomics.net, which is the main project that I currently work on.
+
+* Solitary Wave Families of a Generalized Microstructure PDE
+    ** J. Leto and S. R. Choudhury
+    ** Communications in Nonlinear Science and Numerical Simulation 14 (2009) 1999
+    ** This paper arose from my masters thesis and describes special exact closed-form solutions to nonlinear partial differential equations, using the theory of reversible operators and bilinear operators.
+
+* Nonlinear convection at a Porous Flat Plate with Application to Heat Transfer from a Dike
+    ** K. Vajravelu, J.R. Cannon, J.Leto, et al
+    ** Journal of Mathematical Analysis and Applications, 277 (2003), no. 2, 609
+    ** This is an applied mathematics paper that uses the theory of differential equations to prove the existence and uniqueness of certain equations arising in engineering applications for dams which are subject to temperature gradients.
+
+* On Solutions of Some Nonlinear Differential Equations Arising in Third Grade Fluid Flows
+    ** K. Vajravelu, J.R. Cannon, D. Rollins, J.Leto
+    ** International Journal of Engineering Science 40 (2002) 1791
+    ** This is an applied mathematics paper that uses the theory of differential equations to prove the existence and uniqueness of certain equations arising in industrial applications relating to non-Newtonian fluids.
+
+* Writing A Useful Program with NASM
+    ** Assembly Programming Journal 9 (2000)
+    ** This article is a HOWTO about assembly programming for beginners, and gives example code for NASM.
 
