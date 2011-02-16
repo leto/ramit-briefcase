@@ -17,15 +17,15 @@ This uses PL/Parrot to embed an implementation of Perl 6 and allows writing stor
 procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
 every call to a stored procedure can see if it parses in that grammar.
 
-### Helped add IPv6 support to Parrot
-This was no minor feat, as Parrot support Linux, *BSD, Windows and Solaris.
+### Helped add and test IPv6 support to Parrot
+This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris.
 
 ### Jitterbug : Continuous integration system for Git
-This continuous integration system currently runs test suites and emails
-on build failures. It currently knows how to run tests for Perl 5, Perl 6, Parrot
-and Makefile-based projects. Running Python and Ruby are features that will
-come soon. Currently Jitterbug drops in as a post-receive hook on Github, but it
-can also be used with pure-Git.
+This continuous integration system currently runs test suites and emails on
+build failures. It currently knows how to run tests for Perl 5, Perl 6, Ruby,
+Parrot and Makefile-based projects. Running Python and Javascript test suites
+are planned features. Currently Jitterbug drops in as a post-receive hook on
+Github, but it can also be used with pure-Git.
 
 ### WWW::Phylobox : Perl 5 interface to phylobox.com
 Phylobox.com is a web app on Google App Engine that helps evolutionary biologists
@@ -42,25 +42,26 @@ to pass, under certain versions of the Perl debugger, at my previous job.
 
 > I enjoy being the leader of a team of very smart people and solving hard problems.
 
+### Org Admin, The Perl Foundation and Parrot Foundation, Google Code-In 2010
+* Managed roughly a dozen volunteer mentors and dozens of students, who worked on a variety
+of Parrot Virtual Machine and Perl 5/6 tasks.
+
+### Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2010.
+* Managed 10 students and 10 mentors working on a variety of Parrot Virtual Machine and Perl 5/6 tasks.
+
+### Mentor/Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2009
+* Mentored Bob Kuo on Math::Primality, a CPAN module implementing advanced primality algorithms.
+* Managed 9 students and 9 mentors on many Parrot/Perl projects.
+
+### Co-founder of PDX Hackathon, 2008
+* Local tech event that is attended by 30 or more people, every week.
+
 ### Mentor, The Perl Foundation, Google Summer of Code 2008
 * Mentored Thierry Moisan on Math::GSL, a Perl 5 interface to the GNU Scientific Library. This
 is currently one of the few CPAN modules that integrates SWIG into the build process.
 
-### Mentor/Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2009
-* Mentored Bob Kuo on Math::Primality, a CPAN module implementing advanced primality algorithms.
-* Managed 9 students and 9 mentors.
-
 ### Co-mentor, RTEMS, GSoC 2010
 * Mentored Bob Kuo on porting Parrot VM to the RTEMS real-time OS.
-
-### Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2010.
-* Managed 10 students and 10 mentors.
-
-### Org Admin, The Perl Foundation and Parrot Foundation, Google Code-In 2010
-* Managed roughly a dozen volunteer mentors and dozens of students.
-
-### Co-founder of PDX Hackathon
-* Local tech event that is attended by 30 or more people, every week.
 
 # Writing and Publications
 
@@ -73,7 +74,7 @@ A document that describes the entire process of using Git to hack on Parrot, alo
 A Creative Commons licensed manual for prospective students that describes how to integrate into open source communities.
 
 ### Google Summer of Code: Mentor and Org Admin Guide, Co-Author
-A Creative Commons licesned manual for mentors and admins on how to be effective and avoid common pitfalls.
+A Creative Commons licensed manual for mentors and admins on how to be effective and avoid common pitfalls.
 
 ### The Sol Genomics Network: Growing Tomatoes using Perl
 * Aureliano Bombarely, et al
