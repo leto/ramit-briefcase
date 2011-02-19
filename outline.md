@@ -33,6 +33,10 @@ This CPAN modules allows access to the GNU Scientific Library, written in C, fro
 This allows scientists and researchers to access the thousands of scientific computing
 functions in GSL from an quick-to-write dynamic language.
 
+### Math::Primality
+This CPAN module uses the GNU Multiprecision library to implement advanced prime-checking or primality
+functions. It can be used to do number theory research in Perl 5 efficiently.
+
 ### WWW::Phylobox : Perl 5 interface to phylobox.com
 Phylobox.com is a web app on Google App Engine that helps evolutionary biologists
 visualize phylogenies, which are graphs of how species and groups of species are related.
