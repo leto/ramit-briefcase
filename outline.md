@@ -5,20 +5,21 @@ to open source projects for over ten years in half a dozen languages.
 
 ### Converted Parrot VM to Git
 Over ten years of history across two version control systems was converted,
-and much of the build process had to be refactored to use Git instead of Subversion.
-
-### PL/Parrot : Parrot VM embedded into PostgreSQL
-This makes PIR, Parrot Intermediate Representation, available as PL language, which
-stored procedures can be written in. It also allows for any language running on Parrot
-to easily become PL.
-
-### PL/Perl6  : Rakudo Perl 6 embedded into PostgreSQL
-This uses PL/Parrot to embed an implementation of Perl 6 and allows writing stored
-procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
-every call to a stored procedure can see if it parses in that grammar.
+and large parts of the configure subsystem had to be refactored to use Git instead of Subversion.
+This also involved writing developer documentation on the new Git workflow, as well as a
+document describing Git terminology.
 
 ### Helped add and test IPv6 support to Parrot
 This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris.
+
+### PL/Parrot : Parrot VM embedded into PostgreSQL
+This makes PIR, Parrot Intermediate Representation, available as PostgreSQL stored procedure Language (PL).
+It also allows for any language running on Parrot to easily become PL.
+
+### PL/Perl6  : Rakudo Perl 6 embedded into PostgreSQL
+This uses PL/Parrot to embed Rakudo Perl 6 and allows writing stored
+procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
+every call to a stored procedure can see if it parses in that grammar.
 
 ### Jitterbug : Continuous integration system for Git
 This continuous integration system currently runs test suites and emails on
@@ -26,6 +27,11 @@ build failures. It currently knows how to run tests for Perl 5, Perl 6, Ruby,
 Parrot and Makefile-based projects. Running Python and Javascript test suites
 are planned features. Currently Jitterbug drops in as a post-receive hook on
 Github, but it can also be used with pure-Git.
+
+### Math::GSL
+This CPAN modules allows access to the GNU Scientific Library, written in C, from Perl 5.
+This allows scientists and researchers to access the thousands of scientific computing
+functions in GSL from an quick-to-write dynamic language.
 
 ### WWW::Phylobox : Perl 5 interface to phylobox.com
 Phylobox.com is a web app on Google App Engine that helps evolutionary biologists
