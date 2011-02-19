@@ -77,8 +77,17 @@ is currently one of the few CPAN modules that integrates SWIG into the build pro
 
 > I enjoy writing technical specifications, publishing academic papers and writing about open source.
 
+### Perl and Parrot Spread Open Source Love
+Google Open Source Blog
+http://google-opensource.blogspot.com/2010/10/perl-and-parrot-spread-open-source-love.html
+
 ### Git Workflow for Parrot Developers
-A document that describes the entire process of using Git to hack on Parrot, along with a list of git terminology explained in terms that mere mortals can understand. This includes cloning a new repository, merging branches, keeping branches in sync and accepting pull requests on Github.
+A document that describes the entire process of using Git to hack on Parrot,
+along with a list of git terminology explained in terms that mere mortals can
+understand. This includes cloning a new repository, merging branches, keeping
+branches in sync and accepting pull requests on Github.
+
+https://github.com/parrot/parrot/blob/master/docs/project/git_workflow.pod
 
 ### Google Summer of Code Student Guide: Flip Bits Not Burgers, Co-Author
 A Creative Commons licensed manual for prospective students that describes how to integrate into open source communities.
