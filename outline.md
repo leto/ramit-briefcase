@@ -1,9 +1,9 @@
-# Open Source Achievements
+# Free Software/Open Source Achievements
 
 > I have commit bits to dozens of open source projects and have been actively contributing
 to open source projects for over ten years in half a dozen languages.
 
-### Converted Parrot VM to Git
+### Converted Parrot Virtual Machine to Git
 Over ten years of history across two version control systems was converted,
 and large parts of the configure subsystem had to be refactored to use Git instead of Subversion.
 This also involved writing developer documentation on the new Git workflow, as well as a
@@ -21,13 +21,6 @@ This uses PL/Parrot to embed Rakudo Perl 6 and allows writing stored
 procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
 every call to a stored procedure can see if it parses in that grammar.
 
-### Jitterbug : Continuous integration system for Git
-This continuous integration system currently runs test suites and emails on
-build failures. It currently knows how to run tests for Perl 5, Perl 6, Ruby,
-Parrot and Makefile-based projects. Running Python and Javascript test suites
-are planned features. Currently Jitterbug drops in as a post-receive hook on
-Github, but it can also be used with pure-Git.
-
 ### Math::GSL
 This CPAN modules allows access to the GNU Scientific Library, written in C, from Perl 5.
 This allows scientists and researchers to access the thousands of scientific computing
@@ -36,6 +29,19 @@ functions in GSL from an quick-to-write dynamic language.
 ### Math::Primality
 This CPAN module uses the GNU Multiprecision library to implement advanced prime-checking or primality
 functions. It can be used to do number theory research in Perl 5 efficiently.
+
+### Helped add IPv6 support to Parrot
+This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris and the
+tests must handle the many different implementations of IPv6 across these operating
+systems.
+
+### Jitterbug : Cross Language Continuous Integration for Git
+This continuous integration system currently runs test suites and emails
+on build failures. It currently knows how to run tests for Perl 5/6, Parrot
+and Makefile-based projects. Running Python and Ruby are features that will
+come soon. Currently Jitterbug drops in as a post-receive hook on Github, but it
+can also be used with pure-Git.
+>>>>>>> reorganizize a bit
 
 ### WWW::Phylobox : Perl 5 interface to phylobox.com
 Phylobox.com is a web app on Google App Engine that helps evolutionary biologists
@@ -69,6 +75,13 @@ of Parrot Virtual Machine and Perl 5/6 tasks.
 ### Mentor, The Perl Foundation, Google Summer of Code 2008
 * Mentored Thierry Moisan on Math::GSL, a Perl 5 interface to the GNU Scientific Library. This
 is currently one of the few CPAN modules that integrates SWIG into the build process.
+=======
+### Org Admin and mentor, Parrot Foundation, GSoC 2011.
+* Overseeing 8 students and mentors, and mentoring a student to add GMP bindings to Parrot
+and hence all languages that run on Parrot.
+
+### Org Admin, The Perl Foundation and Parrot Foundation, Google Code-In 2010
+* Managed roughly a dozen volunteer mentors and dozens of students.
 
 ### Co-mentor, RTEMS, GSoC 2010
 * Mentored Bob Kuo on porting Parrot VM to the RTEMS real-time OS.
