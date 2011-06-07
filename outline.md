@@ -41,7 +41,6 @@ on build failures. It currently knows how to run tests for Perl 5/6, Parrot
 and Makefile-based projects. Running Python and Ruby are features that will
 come soon. Currently Jitterbug drops in as a post-receive hook on Github, but it
 can also be used with pure-Git.
->>>>>>> reorganizize a bit
 
 ### WWW::Phylobox : Perl 5 interface to phylobox.com
 Phylobox.com is a web app on Google App Engine that helps evolutionary biologists
