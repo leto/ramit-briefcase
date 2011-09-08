@@ -3,6 +3,13 @@
 > I have commit bits to dozens of open source projects and have been actively contributing
 to open source projects for over ten years in half a dozen languages.
 
+### [CASH Music](http://cashmusic.org)
+
+CASH music is new kind of web software for musicians to present, socialize and
+sell their music. I have been working hard on making the software developer
+friendly, in addition to being well-tested and flexible. NEWS: The CASH Music
+team has recently been selected by Mozilla to be some of the first [WebFWD](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows) fellows!
+
 ### Converted [Parrot Virtual Machine](http://parrot.org) to Git
 
 Over ten years of history across two version control systems was converted, and
