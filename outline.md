@@ -3,28 +3,50 @@
 > I have commit bits to dozens of open source projects and have been actively contributing
 to open source projects for over ten years in half a dozen languages.
 
+### Redesigning Parrot Internals: [M0](http://leto.net/dukeleto.pl/2011/05/what-is-m0.html)
+
+I am currently involved in redesigning the very core of Parrot so an efficient JIT can be implemented
+on top of it.
+
 ### Converted Parrot Virtual Machine to Git
-Over ten years of history across two version control systems was converted,
-and large parts of the configure subsystem had to be refactored to use Git instead of Subversion.
-This also involved writing developer documentation on the new Git workflow, as well as a
-document describing Git terminology.
+
+Over ten years of history across two version control systems was converted, and
+large parts of the configure subsystem and test suite had to be refactored to
+use Git instead of Subversion.  This also involved writing developer
+documentation on the new Git workflow, as well as a document describing Git
+terminology.
+
+### [Mimosa](http://gmod.github.com/mimosa): Miniature Model Organism Sequence Aligner
+
+One of my current projects is writing an extremely well-tested web application
+for bioinformatics researchers to align sequence data from the comfort of their
+web browser.
 
 ### Helped add and test IPv6 support to Parrot
-This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris.
+
+This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris. It also
+involved writing tests which dealt with the different kinds of IPv6 error conditions
+that various operating systems return and allowing the tests to be run in parallel.
 
 ### PL/Parrot : Parrot VM embedded into PostgreSQL
-This makes PIR, Parrot Intermediate Representation, available as PostgreSQL stored procedure Language (PL).
-It also allows for any language running on Parrot to easily become PL.
+
+This makes PIR, Parrot Intermediate Representation, available as PostgreSQL
+stored procedure Language (PL).  It also allows for any language running on
+Parrot to easily become PL.
 
 ### PL/Perl6  : Rakudo Perl 6 embedded into PostgreSQL
 This uses PL/Parrot to embed Rakudo Perl 6 and allows writing stored
 procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
 every call to a stored procedure can see if it parses in that grammar.
 
+### Perl 6 Spec Test Suite
+I originally got involved with Perl 6 by adding many tests relating to mathematical functions in Perl 6,
+including logarithm, complex numbers, and finding arbitrary roots of real and complex numbers.
+
 ### Math::GSL
 This CPAN modules allows access to the GNU Scientific Library, written in C, from Perl 5.
 This allows scientists and researchers to access the thousands of scientific computing
-functions in GSL from an quick-to-write dynamic language.
+functions in GSL from a quick-to-write dynamic language.
 
 ### Math::Primality
 This CPAN module uses the GNU Multiprecision library to implement advanced prime-checking or primality
@@ -74,7 +96,7 @@ of Parrot Virtual Machine and Perl 5/6 tasks.
 ### Mentor, The Perl Foundation, Google Summer of Code 2008
 * Mentored Thierry Moisan on Math::GSL, a Perl 5 interface to the GNU Scientific Library. This
 is currently one of the few CPAN modules that integrates SWIG into the build process.
-=======
+
 ### Org Admin and mentor, Parrot Foundation, GSoC 2011.
 * Overseeing 8 students and mentors, and mentoring a student to add GMP bindings to Parrot
 and hence all languages that run on Parrot.
