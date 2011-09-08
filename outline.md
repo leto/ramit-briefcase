@@ -3,18 +3,18 @@
 > I have commit bits to dozens of open source projects and have been actively contributing
 to open source projects for over ten years in half a dozen languages.
 
-### Redesigning Parrot Internals: [M0](http://leto.net/dukeleto.pl/2011/05/what-is-m0.html)
-
-I am currently involved in redesigning the very core of Parrot so an efficient JIT can be implemented
-on top of it.
-
-### Converted Parrot Virtual Machine to Git
+### Converted [Parrot Virtual Machine](http://parrot.org) to Git
 
 Over ten years of history across two version control systems was converted, and
 large parts of the configure subsystem and test suite had to be refactored to
 use Git instead of Subversion. This also involved writing developer
 documentation on the new [Git workflow](https://github.com/parrot/parrot/blob/master/docs/project/git_workflow.pod) for Parrot Developers
 , as well as a document describing [Git terminology](https://github.com/parrot/parrot/blob/master/docs/project/git_terminology.pod).
+
+### Redesigning Parrot Internals: [M0](http://leto.net/dukeleto.pl/2011/05/what-is-m0.html)
+
+I am currently involved in redesigning the very core of Parrot so an efficient JIT can be implemented
+on top of it.
 
 ### [Mimosa](http://gmod.github.com/mimosa): Miniature Model Organism Sequence Aligner
 
@@ -37,18 +37,18 @@ This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris. It 
 involved writing tests which dealt with the different kinds of IPv6 error conditions
 that various operating systems return and allowing the tests to be run in parallel.
 
-### PL/Parrot : Parrot VM embedded into PostgreSQL
+### [PL/Parrot](http://pl.parrot.org) : Parrot VM embedded into PostgreSQL
 
 This makes PIR, Parrot Intermediate Representation, available as PostgreSQL
 stored procedure Language (PL).  It also allows for any language running on
 Parrot to easily become PL.
 
-### PL/Perl6  : Rakudo Perl 6 embedded into PostgreSQL
+### [PL/Perl6](http://pl.parrot.org)  : Rakudo Perl 6 embedded into PostgreSQL
 This uses PL/Parrot to embed Rakudo Perl 6 and allows writing stored
 procedures in Perl 6. For instance, a Perl 6 grammar can be defined once and then
 every call to a stored procedure can see if it parses in that grammar.
 
-### Perl 6 Spec Test Suite
+### [Perl 6 Spec Test Suite](https://github.com/perl6/roast)
 I originally got involved with Perl 6 by adding many tests relating to mathematical functions in Perl 6,
 including logarithm, complex numbers, and finding arbitrary roots of real and complex numbers.
 
@@ -80,7 +80,7 @@ This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris and
 the tests must handle the many different implementations of IPv6 across these
 operating systems.
 
-### Jitterbug : Cross Language Continuous Integration for Git
+### [Jitterbug](https://github.com/franckcuny/jitterbug) : Cross Language Continuous Integration for Git
 
 This continuous integration system currently runs test suites and emails on
 build failures. It currently knows how to run tests for Perl 5/6, Parrot and
@@ -88,7 +88,7 @@ Makefile-based projects. Running Python and Ruby are features that will come
 soon. Currently Jitterbug drops in as a post-receive hook on Github, but it can
 also be used with pure Git.
 
-### WWW::Phylobox : Perl 5 interface to phylobox.com
+### [WWW::Phylobox](https://github.com/leto/www-phylobox) : Perl 5 interface to phylobox.com
 
 Phylobox.com is a web app on Google App Engine that helps evolutionary
 biologists visualize phylogenies, which are graphs of how species and groups of
@@ -197,5 +197,6 @@ industrial applications relating to non-Newtonian fluids. I did all the numerics
 paper and actually wrote the CPAN module [Math::ODE](https://metacpan.org/release/Math-ODE/) to solve the equations numerically.
 
 ### Writing A Useful Program with NASM
-* Assembly Programming Journal 9 (2000)
-* This article is a HOWTO about assembly programming for beginners, and gives example code for NASM.
+ * Assembly Programming Journal 9 (2000)
+
+This article is a HOWTO about assembly programming for beginners, and gives example code for NASM.
