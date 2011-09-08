@@ -12,15 +12,24 @@ on top of it.
 
 Over ten years of history across two version control systems was converted, and
 large parts of the configure subsystem and test suite had to be refactored to
-use Git instead of Subversion.  This also involved writing developer
-documentation on the new Git workflow, as well as a document describing Git
-terminology.
+use Git instead of Subversion. This also involved writing developer
+documentation on the new [Git workflow](https://github.com/parrot/parrot/blob/master/docs/project/git_workflow.pod) for Parrot Developers
+, as well as a document describing [Git terminology](https://github.com/parrot/parrot/blob/master/docs/project/git_terminology.pod).
 
 ### [Mimosa](http://gmod.github.com/mimosa): Miniature Model Organism Sequence Aligner
 
 One of my current projects is writing an extremely well-tested web application
 for bioinformatics researchers to align sequence data from the comfort of their
 web browser.
+
+### Fixed an obscure bug in the Perl 5 debugger
+
+This involved reading and understanding the entire source code of the Perl 5
+debugger.  I can't say that I have ever been the same since. This bug would
+cause any failing test to pass, under certain versions of the Perl debugger, at
+my previous job. Fixing the bug involved fixing a bug where undefined symbols
+were being created and writing tests for the Perl 5 debugger to make sure this
+kind of thing doesn't happen again.
 
 ### Helped add and test IPv6 support to Parrot
 
@@ -44,36 +53,42 @@ I originally got involved with Perl 6 by adding many tests relating to mathemati
 including logarithm, complex numbers, and finding arbitrary roots of real and complex numbers.
 
 ### Math::GSL
-This CPAN modules allows access to the GNU Scientific Library, written in C, from Perl 5.
-This allows scientists and researchers to access the thousands of scientific computing
-functions in GSL from a quick-to-write dynamic language.
+
+This CPAN modules allows access to the GNU Scientific Library, written in C,
+from Perl 5.  This allows scientists and researchers to access the thousands of
+scientific computing functions in GSL from a quick-to-write dynamic language.
+This module uses SWIG to generate wrappers to the massive GSL C library, and
+contains thousands of tests to verify that the various functions and algorithms
+are working correctly.
 
 ### Math::Primality
-This CPAN module uses the GNU Multiprecision library to implement advanced prime-checking or primality
-functions. It can be used to do number theory research in Perl 5 efficiently.
+
+This CPAN module uses the GNU Multiprecision library to implement advanced
+prime-checking or primality functions. It can be used to do number theory
+research in Perl 5 efficiently. It also contains thousands of tests to ensure
+that researchers can trust their calculations.
 
 ### Helped add IPv6 support to Parrot
-This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris and the
-tests must handle the many different implementations of IPv6 across these operating
-systems.
+
+This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris and
+the tests must handle the many different implementations of IPv6 across these
+operating systems.
 
 ### Jitterbug : Cross Language Continuous Integration for Git
-This continuous integration system currently runs test suites and emails
-on build failures. It currently knows how to run tests for Perl 5/6, Parrot
-and Makefile-based projects. Running Python and Ruby are features that will
-come soon. Currently Jitterbug drops in as a post-receive hook on Github, but it
-can also be used with pure-Git.
+
+This continuous integration system currently runs test suites and emails on
+build failures. It currently knows how to run tests for Perl 5/6, Parrot and
+Makefile-based projects. Running Python and Ruby are features that will come
+soon. Currently Jitterbug drops in as a post-receive hook on Github, but it can
+also be used with pure Git.
 
 ### WWW::Phylobox : Perl 5 interface to phylobox.com
-Phylobox.com is a web app on Google App Engine that helps evolutionary biologists
-visualize phylogenies, which are graphs of how species and groups of species are related.
-This was written at a hackathon at the National Evolutionary Synthesis Center (NESCent),
-which is an NSF-funded research center for aggregrating evolutionary data.
 
-### Fixed an obscure bug in the Perl 5 debugger
-This involved reading and understanding the entire source code of the Perl 5 debugger.
-I can't say that I have ever been the same since. This bug would cause any failing test
-to pass, under certain versions of the Perl debugger, at my previous job.
+Phylobox.com is a web app on Google App Engine that helps evolutionary
+biologists visualize phylogenies, which are graphs of how species and groups of
+species are related.  This was written at a hackathon at the National
+Evolutionary Synthesis Center (NESCent), which is an NSF-funded research center
+for aggregrating evolutionary data.
 
 # Leadership Achievements
 
@@ -111,23 +126,34 @@ and hence all languages that run on Parrot.
 
 > I enjoy writing technical specifications, publishing academic papers and writing about open source.
 
+### [Test Driven Enlightenment](https://github.com/lydiapintscher/Open-Advice/blob/master/qualityassurance/JonathanLeto.tex): A Chapter in the upcoming book "Open Advice"
+
+I had the pleasure of writing a chapter for Lydia Pintscher's upcoming book
+called "Open Advice", which contains a plethora of amazing information from
+many dozens of awesome people about getting involved in Free and Open source
+software.
+
+
 ### Perl and Parrot Spread Open Source Love
 Google Open Source Blog
 http://google-opensource.blogspot.com/2010/10/perl-and-parrot-spread-open-source-love.html
 
-### Git Workflow for Parrot Developers
+### [Git Workflow](https://github.com/parrot/parrot/blob/master/docs/project/git_workflow.pod) for Parrot Developers
+
 A document that describes the entire process of using Git to hack on Parrot,
 along with a list of git terminology explained in terms that mere mortals can
 understand. This includes cloning a new repository, merging branches, keeping
 branches in sync and accepting pull requests on Github.
 
-https://github.com/parrot/parrot/blob/master/docs/project/git_workflow.pod
-
 ### Google Summer of Code Student Guide: Flip Bits Not Burgers, Co-Author
-A Creative Commons licensed manual for prospective students that describes how to integrate into open source communities.
+
+A Creative Commons licensed manual for prospective students that describes how
+to integrate into open source communities.
 
 ### Google Summer of Code: Mentor and Org Admin Guide, Co-Author
-A Creative Commons licensed manual for mentors and admins on how to be effective and avoid common pitfalls.
+
+A Creative Commons licensed manual for mentors and admins on how to be
+effective and avoid common pitfalls.
 
 ### The Sol Genomics Network: Growing Tomatoes using Perl
 * Aureliano Bombarely, et al
