@@ -52,7 +52,7 @@ every call to a stored procedure can see if it parses in that grammar.
 I originally got involved with Perl 6 by adding many tests relating to mathematical functions in Perl 6,
 including logarithm, complex numbers, and finding arbitrary roots of real and complex numbers.
 
-### Math::GSL
+### [Math::GSL](https://metacpan.org/release/Math-GSL)
 
 This CPAN modules allows access to the GNU Scientific Library, written in C,
 from Perl 5.  This allows scientists and researchers to access the thousands of
@@ -61,12 +61,18 @@ This module uses SWIG to generate wrappers to the massive GSL C library, and
 contains thousands of tests to verify that the various functions and algorithms
 are working correctly.
 
-### Math::Primality
+### [Math::Primality](https://metacpan.org/release/Math-Primality)
 
 This CPAN module uses the GNU Multiprecision library to implement advanced
 prime-checking or primality functions. It can be used to do number theory
 research in Perl 5 efficiently. It also contains thousands of tests to ensure
 that researchers can trust their calculations.
+
+### [Math::ODE](https://metacpan.org/release/Math-ODE)
+
+This is a pure Perl implementation of the 4th Order Runge-Kutta algorithm to quickly
+solve systems of ordinary differential equations. Contains various tests which verify
+the numeric solutions are within the expected tolerance of known exact solutions.
 
 ### Helped add IPv6 support to Parrot
 
@@ -134,9 +140,9 @@ many dozens of awesome people about getting involved in Free and Open source
 software.
 
 
-### Perl and Parrot Spread Open Source Love
-Google Open Source Blog
-http://google-opensource.blogspot.com/2010/10/perl-and-parrot-spread-open-source-love.html
+### [Perl and Parrot Spread Open Source Love](http://google-opensource.blogspot.com/2010/10/perl-and-parrot-spread-open-source-love.html)
+
+This blog post appeared on the Google Open Source Blog.
 
 ### [Git Workflow](https://github.com/parrot/parrot/blob/master/docs/project/git_workflow.pod) for Parrot Developers
 
@@ -156,24 +162,39 @@ A Creative Commons licensed manual for mentors and admins on how to be
 effective and avoid common pitfalls.
 
 ### The Sol Genomics Network: Growing Tomatoes using Perl
-* Aureliano Bombarely, et al
-* Nucleic Acid Research Oct (2010)
-* This publication describes http://solgenomics.net, which is the main project that I currently work on.
+ * Aureliano Bombarely, et al
+ * Nucleic Acid Research Oct (2010)
+
+This publication describes http://solgenomics.net, which is one of the main projects that I currently work on.
 
 ### Solitary Wave Families of a Generalized Microstructure PDE
-* J. Leto and S. R. Choudhury
-* Communications in Nonlinear Science and Numerical Simulation 14 (2009) 1999
-* This paper arose from my masters thesis and describes special exact closed-form solutions to nonlinear partial differential equations, using the theory of reversible operators and bilinear operators.
+
+ * J. Leto and S. R. Choudhury
+ * Communications in Nonlinear Science and Numerical Simulation 14 (2009) 1999
+
+This paper arose from my masters thesis and describes brand new, exact closed-form
+solutions to nonlinear partial differential equations, using the theory of
+reversible operators and bilinear operators. Finding solutions to equations that nobody
+has ever solved before is quite fun.
 
 ### Nonlinear convection at a Porous Flat Plate with Application to Heat Transfer from a Dike
-* K. Vajravelu, J.R. Cannon, J.Leto, et al
-* Journal of Mathematical Analysis and Applications, 277 (2003), no. 2, 609
-* This is an applied mathematics paper that uses the theory of differential equations to prove the existence and uniqueness of certain equations arising in engineering applications for dams which are subject to temperature gradients.
+ * K. Vajravelu, J.R. Cannon, J.Leto, et al
+ * Journal of Mathematical Analysis and Applications, 277 (2003), no. 2, 609
+
+This is an applied mathematics paper that uses the theory of differential
+equations to prove the existence and uniqueness of certain equations arising
+in engineering applications for dams which are subject to temperature
+gradients. I am responsible for all the numerics in this paper, which was part of
+an undergraduate research grant I worked on.
 
 ### On Solutions of Some Nonlinear Differential Equations Arising in Third Grade Fluid Flows
-* K. Vajravelu, J.R. Cannon, D. Rollins, J.Leto
-* International Journal of Engineering Science 40 (2002) 1791
-* This is an applied mathematics paper that uses the theory of differential equations to prove the existence and uniqueness of certain equations arising in industrial applications relating to non-Newtonian fluids.
+ * K. Vajravelu, J.R. Cannon, D. Rollins, J.Leto
+ * International Journal of Engineering Science 40 (2002) 1791
+
+This is an applied mathematics paper that uses the theory of differential
+equations to prove the existence and uniqueness of certain equations arising in
+industrial applications relating to non-Newtonian fluids. I did all the numerics in this
+paper and actually wrote the CPAN module [Math::ODE](https://metacpan.org/release/Math-ODE/) to solve the equations numerically.
 
 ### Writing A Useful Program with NASM
 * Assembly Programming Journal 9 (2000)
