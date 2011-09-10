@@ -107,32 +107,50 @@ for aggregrating evolutionary data.
 
 > I enjoy being the leader of a team of very smart people and solving hard problems.
 
+### Mentor/Org Admin, Parrot Foundation, GSoC 2011.
+
+* Organized 8 students and 8 mentors working on a variety of Parrot Virtual
+Machine projects as well as being a mentor for Robert Kuo who implemented
+bindings to GMP which can be used by any Parrot language.
+
 ### Org Admin, The Perl Foundation and Parrot Foundation, Google Code-In 2010
-* Managed roughly a dozen volunteer mentors and dozens of students, who worked on a variety
-of Parrot Virtual Machine and Perl 5/6 tasks.
+
+* Managed roughly a dozen volunteer mentors and dozens of students, who worked
+on a variety of Parrot Virtual Machine and Perl 5/6 tasks.
 
 ### Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2010.
-* Managed 10 students and 10 mentors working on a variety of Parrot Virtual Machine and Perl 5/6 tasks.
+
+* Managed 10 students and 10 mentors working on a variety of Parrot Virtual
+Machine and Perl 5/6 tasks.
 
 ### Mentor/Org Admin, The Perl Foundation and Parrot Foundation, GSoC 2009
-* Mentored Bob Kuo on Math::Primality, a CPAN module implementing advanced primality algorithms.
+
+* Mentored Bob Kuo on Math::Primality, a CPAN module implementing advanced
+primality algorithms.
+
 * Managed 9 students and 9 mentors on many Parrot/Perl projects.
 
 ### Co-founder of PDX Hackathon, 2008
-* Local tech event that is attended by 30 or more people, every week.
+
+* Local tech social event that is attended by many people from PDX tech user groups
 
 ### Mentor, The Perl Foundation, Google Summer of Code 2008
-* Mentored Thierry Moisan on Math::GSL, a Perl 5 interface to the GNU Scientific Library. This
-is currently one of the few CPAN modules that integrates SWIG into the build process.
+
+* Mentored Thierry Moisan on Math::GSL, a Perl 5 interface to the GNU
+Scientific Library. This is currently one of the few CPAN modules that
+integrates SWIG into the build process.
 
 ### Org Admin and mentor, Parrot Foundation, GSoC 2011.
-* Overseeing 8 students and mentors, and mentoring a student to add GMP bindings to Parrot
-and hence all languages that run on Parrot.
+
+* Overseeing 8 students and mentors, and mentoring a student to add GMP
+bindings to Parrot and hence all languages that run on Parrot.
 
 ### Org Admin, The Perl Foundation and Parrot Foundation, Google Code-In 2010
-* Managed roughly a dozen volunteer mentors and dozens of students.
+
+* Organized roughly a dozen volunteer mentors and dozens of students.
 
 ### Co-mentor, RTEMS, GSoC 2010
+
 * Mentored Bob Kuo on porting Parrot VM to the RTEMS real-time OS.
 
 # Writing and Publications
