@@ -101,6 +101,11 @@ for aggregrating evolutionary data.
 
 > I enjoy being the leader of a team of very smart people and solving hard problems.
 
+### Mentor/Org Admin, Parrot Foundation, Google Code-In 2011.
+
+This program is currently in progress and draws the smartest high-school students
+from around the world to hack on free and open source projects.
+
 ### Mentor/Org Admin, Parrot Foundation, GSoC 2011.
 
 * Organized 8 students and 8 mentors working on a variety of Parrot Virtual
