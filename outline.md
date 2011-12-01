@@ -81,12 +81,6 @@ This is a pure Perl implementation of the 4th Order Runge-Kutta algorithm to qui
 solve systems of ordinary differential equations. Contains various tests which verify
 the numeric solutions are within the expected tolerance of known exact solutions.
 
-### Helped add IPv6 support to Parrot
-
-This was no minor feat, as Parrot supports Linux, *BSD, Windows and Solaris and
-the tests must handle the many different implementations of IPv6 across these
-operating systems.
-
 ### [Jitterbug](https://github.com/franckcuny/jitterbug) : Cross Language Continuous Integration for Git
 
 This continuous integration system currently runs test suites and emails on
