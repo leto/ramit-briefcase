@@ -1,14 +1,28 @@
-# Free Software/Open Source Achievements
+# Achievements
 
-> I have commit bits to dozens of open source projects and have been actively contributing
-to open source projects for over ten years in half a dozen languages.
+> I have commit bits to dozens of free and open source projects and have been actively contributing
+to projects for about fifteen years in a dozen languages.
+
+### [parrot-libgit2](https://github.com/letolabs/parrot-libgit2)
+
+parrot-libgit2 are bindings for Parrot Virtual Machine to libgit2, the
+reimplementation of Git as a cross-platform, thread-safe and re-entrant C
+library. It is written in Winxed, a typed Javascript-ish language that runs on
+Parrot. This
+[blog](http://labs.leto.net/2011/11/15/parrot-libgit2-winxed-unicorns.html)
+post goes into more details.
+
+### [Travis CI](http://travis-ci.org)
+
+Helped add [Perl 5 support](http://about.travis-ci.org/blog/announcing_python_and_perl_support_on_travis_ci/) to Travis CI.
 
 ### [CASH Music](http://cashmusic.org)
 
 CASH music is new kind of web software for musicians to present, socialize and
 sell their music. I have been working hard on making the software developer
 friendly, in addition to being well-tested and flexible. NEWS: The CASH Music
-team has recently been selected by Mozilla to be some of the first [WebFWD](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows) fellows!
+team has recently been selected by Mozilla to be some of the first [WebFWD](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows) fellows
+and our [Kickstarter](http://www.kickstarter.com/projects/cashmusic/cash-music-platform) was funded!
 
 ### Converted [Parrot Virtual Machine](http://parrot.org) to Git
 
