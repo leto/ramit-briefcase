@@ -9,7 +9,7 @@ parrot-libgit2 are bindings for Parrot Virtual Machine to libgit2, the
 reimplementation of Git as a cross-platform, thread-safe and re-entrant C
 library. It is written in Winxed, a typed Javascript-ish language that runs on
 Parrot. This
-[blog](http://labs.leto.net/2011/11/15/parrot-libgit2-winxed-unicorns.html)
+[blog](http://letolabs.com/2011/11/15/parrot-libgit2-winxed-unicorns.html)
 post goes into more details.
 
 ### [Travis CI](http://travis-ci.org)
